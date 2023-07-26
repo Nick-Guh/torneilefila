@@ -1,0 +1,259 @@
+body {
+  padding-top: 110px;
+  padding-left: 380px;
+  padding-right: 30px;
+  min-width: 500px;
+  font-family: Roboto, Arial;
+  color: #d3d3d3;
+}
+
+body.dark-theme {
+  background-color: #121212;
+}
+
+body.light-theme {
+  background-color: #a93535;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  opacity: 0.94;
+}
+
+.stage.dark-theme {
+  background-color: #232323;
+}
+
+.stage.light-theme {
+  background-color: #b12aab;
+}
+
+.stage-ID {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  letter-spacing: 3px;
+}
+
+.stage-ID.dark-theme {
+  color: #5050ff;
+}
+
+.stage-ID.light-theme {
+  color: #5050ff;
+}
+
+.match {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #d2d2d2;
+}
+
+.match.dark-theme {
+  background-color: #323232;
+}
+
+.match.light-theme {
+  background-color: #c9cc92;
+}
+
+.match-ID {
+  margin: 15px 25px;
+  font-size: 1.3rem;
+}
+
+.match-result {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.match-result.dark-theme {
+  background-color: #404040;
+}
+
+.match-result.light-theme {
+  background-color: #19a29c;
+}
+
+.competitor {
+  padding: 15px;
+  flex: 5;
+}
+
+.score {
+  flex: 2;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.score.dark-theme {
+  background-color: #505050;
+}
+
+.score.light-theme {
+  background-color: #584274;
+}
+
+.bg-animation-container {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bg-logo-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: background 15s linear infinite;
+  z-index: 50;
+}
+
+.bg-img-container {
+  position: relative;
+  flex: 1;
+}
+
+.bg-img-container:nth-child(1) .bg-logo-img {
+  animation-delay: 0s;
+  width: 80px;
+  height: 80px;
+  animation-duration: 13s;
+}
+
+.bg-img-container:nth-child(2) .bg-logo-img {
+  animation-delay: 4s;
+  width: 100px;
+  height: 100px;
+  animation-duration: 10s;
+}
+
+.bg-img-container:nth-child(3) .bg-logo-img {
+  animation-delay: 5s;
+  width: 50px;
+  height: 50px;
+  animation-duration: 15s;
+}
+
+.bg-img-container:nth-child(4) .bg-logo-img {
+  animation-delay: 4s;
+  width: 60px;
+  height: 60px;
+  animation-duration: 10s;
+}
+
+.bg-img-container:nth-child(5) .bg-logo-img {
+  animation-delay: 10s;
+  width: 90px;
+  height: 90px;
+  animation-duration: 14s;
+}
+
+.bg-img-container:nth-child(6) .bg-logo-img {
+  animation-delay: 8s;
+  width: 80px;
+  height: 80px;
+  animation-duration: 12s;
+}
+
+.bg-img-container:nth-child(7) .bg-logo-img {
+  animation-delay: 2s;
+  width: 90px;
+  height: 90px;
+  animation-duration: 15s;
+}
+
+.bg-img-container:nth-child(8) .bg-logo-img {
+  animation-delay: 7s;
+  width: 130px;
+  height: 130px;
+  animation-duration: 13s;
+}
+
+.bg-img-container:nth-child(9) .bg-logo-img {
+  animation-delay: 6s;
+  width: 60px;
+  height: 60px;
+  animation-duration: 18s;
+}
+
+.bg-img-container:nth-child(10) .bg-logo-img {
+  animation-delay: 5s;
+  width: 120px;
+  height: 120px;
+  animation-duration: 9s;
+}
+
+.bg-img-container:nth-child(11) .bg-logo-img {
+  animation-delay: 4s;
+  width: 90px;
+  height: 90px;
+  animation-duration: 11s;
+}
+
+.bg-img-container:nth-child(12) .bg-logo-img {
+  animation-delay: 1s;
+  width: 130px;
+  height: 130px;
+  animation-duration: 13s;
+}
+
+.bg-img-container:nth-child(13) .bg-logo-img {
+  animation-delay: 9s;
+  width: 80px;
+  height: 80px;
+  animation-duration: 12s;
+}
+
+.bg-img-container:nth-child(14) .bg-logo-img {
+  animation-delay: 7s;
+  width: 60px;
+  height: 60px;
+  animation-duration: 10s;
+}
+
+@keyframes background {
+  0% {
+    transform: translateY(0px) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-800px) rotate(480deg);
+    opacity: 0.3;
+  }
+}

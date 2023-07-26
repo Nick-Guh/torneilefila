@@ -1,0 +1,35 @@
+@import './_config';
+
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  height: 80px;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &.dark-theme{
+    background-color: $header-dark-bg-color;
+  }
+
+  &.light-theme {
+    background-color: $header-light-bg-color;
+  }
+}
+
+.hamburger-menu-icon{
+  display: none;
+  
+  height: 100%;
+  width: 90px;
+
+  & img{
+    width: 30px;
+  }
+}

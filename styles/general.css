@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
