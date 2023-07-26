@@ -1,4 +1,4 @@
-import {pageElements} from 'scripts/config.js';
+import {pageElements} from './config.js';
 
 let colorTheme = localStorage.getItem('colorTheme') || 'dark-theme'
 let colorThemeBefore = colorTheme === 'dark-theme' ? 'light-theme' : 'dark-theme';
