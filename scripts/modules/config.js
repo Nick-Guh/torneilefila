@@ -11,6 +11,11 @@ const pageElements = {
     colored: true,
   },
 
+  hamburgerMenuButton: {
+    JSelement: document.querySelector('.hamburger-menu-icon button'),
+    colored: true,
+  },
+
   sidebar: {
     JSelement: document.querySelector('.sidebar'),
     colored: true,
