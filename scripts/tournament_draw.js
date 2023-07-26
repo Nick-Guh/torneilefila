@@ -1,4 +1,4 @@
-import { randomizeArrayOrder, cloneArray } from "./_utils.js";
+import { randomizeArrayOrder, cloneArray } from "_utils.js";
 
 
 //creates the array in which the teams have to be stored
