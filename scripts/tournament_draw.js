@@ -1,4 +1,32 @@
-import { randomizeArrayOrder, cloneArray } from "scripts/_utils.js";
+//import { randomizeArrayOrder, cloneArray } from "scripts/_utils.js";
+
+function randomizeArrayOrder(array){
+    let randomizedArray = [];
+    let arrayClone = cloneArray(array);
+  
+    for (let i = 0; i < array.length; i++) {
+      let randomIndex = Math.floor(Math.random()*(arrayClone.length-1));
+      randomizedArray[i] = arrayClone[randomIndex];
+      arrayClone.splice(randomIndex, 1);
+    }
+  
+    return randomizedArray
+  }      
+  
+  function cloneArray(array) {
+    let arrayClone = [];
+  
+    for (let i=0; i < array.length; i++) {
+      arrayClone[i] = array[i];
+    };
+  
+    return arrayClone;
+  }
+
+
+
+
+
 
 
 //creates the array in which the teams have to be stored
