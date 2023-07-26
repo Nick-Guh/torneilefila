@@ -1,4 +1,4 @@
-import { randomizeArrayOrder, cloneArray } from "./utils.js";
+import { randomizeArrayOrder, cloneArray } from "./modules/utils.js";
 
 
 
