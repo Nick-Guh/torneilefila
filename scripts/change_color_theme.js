@@ -1,4 +1,4 @@
-//import {pageElements} from '_config.js';
+import {pageElements} from 'scripts/config.js';
 
 
 const pageElements = {
