@@ -1,4 +1,4 @@
-//import { randomizeArrayOrder, cloneArray } from "scripts/utils.js";
+import { randomizeArrayOrder, cloneArray } from "./utils.js";
 function randomizeArrayOrder(array){
     let randomizedArray = [];
     let arrayClone = cloneArray(array);
