@@ -3,6 +3,10 @@
   font-size: 1rem;
 }
 
+*:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
 button {
   cursor: pointer;
   background-color: transparent;
