@@ -1,38 +1,20 @@
-@import './_config';
-
 @media screen and (max-width: 1200px) and (min-width: 990px) {
-
-
-
-
-
   .sidebar {
-    width: $sidebar-min-width;
-
-    
-    &:hover {
-      width: $sidebar-full-width;
-      
-      & .screen-darkener {
-        display: block;
-        pointer-events: none;
-      }
-    }
+    width: 90px;
   }
-
+  .sidebar:hover {
+    width: 350px;
+  }
+  .sidebar:hover .screen-darkener {
+    display: block;
+    pointer-events: none;
+  }
   body {
     padding-left: 120px;
     padding-right: 30px;
-  }        
-
+  }
   .bg-animation-container {
     left: 100px;
     right: -120px;
   }
-
-
-
-
-
-
 }
