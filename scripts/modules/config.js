@@ -21,6 +21,11 @@ const pageElements = {
     colored: true,
   },
 
+  screenDarkener: {
+    JSelement: document.querySelector('.screen-darkener'),
+    colored: true,
+  },
+
   main: {
     JSelement: document.querySelector('main'),
     colored: false,
