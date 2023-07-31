@@ -3,9 +3,6 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .stage {
-    padding: 30px 20px;
-  }
   .sidebar {
     width: 0;
   }
@@ -41,7 +38,10 @@
 
 @media screen and (max-width: 990px) and (max-width: 560px) {
   body {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .stage {
+    padding: 20px 10px;
   }
 }
