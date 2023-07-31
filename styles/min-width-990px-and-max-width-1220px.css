@@ -2,12 +2,24 @@
   .sidebar {
     width: 90px;
   }
+  .sidebar .change-color-theme-btn-container {
+    padding: 0;
+  }
+  .sidebar-menu-element-description {
+    transform: scaleX(0);
+  }
   .sidebar:hover {
     width: 350px;
   }
   .sidebar:hover .screen-darkener {
     display: block;
     pointer-events: none;
+  }
+  .sidebar:hover .change-color-theme-btn-container {
+    padding: 0 20px;
+  }
+  .sidebar:hover .sidebar-menu-element-description {
+    transform: scaleX(1);
   }
   body {
     padding-left: 120px;
