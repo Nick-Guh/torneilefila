@@ -3,6 +3,9 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .stage {
+    padding: 30px 20px;
+  }
   .sidebar {
     width: 0;
   }
