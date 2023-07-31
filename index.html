@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="Images/logo-icon.png">
 
@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/general.css">
@@ -31,14 +31,22 @@
     </header>
 
     <nav class="sidebar">
-      <div class="screen-darkener"></div>
-      <div class="sidebar-menu-element"></div>
-      <div class="sidebar-menu-element"></div>
-      <div class="sidebar-menu-element"></div>
-      <div class="sidebar-menu-element">
+      <button class="screen-darkener"></button>
+      
+      <div class="sidebar-menu">
+        <div class="sidebar-menu-element"></div>
+        <div class="sidebar-menu-element"></div>
+        <div class="sidebar-menu-element"></div>
+        <div class="sidebar-menu-element"></div>
+      </div>
+
+      <div class="change-color-theme-btn-container ">
+        <div class="sidebar-menu-element-description"> Tema Scuro </div>
         <button class="change-color-theme-btn ">
           <div></div>  
         </button>
+        <div class="sidebar-menu-element-description"> Tema Chiaro </div>
+
       </div>
     </nav>
 
