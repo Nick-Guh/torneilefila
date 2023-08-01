@@ -1,8 +1,4 @@
 @media screen and (max-width: 990px) {
-  body {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .sidebar {
     width: 0;
   }
@@ -36,11 +32,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
-  body {
-    padding-left: 1px;
-    padding-right: 1px;
-  }
+@media screen and (max-width: 990px) and (max-width: 560px) {
   .stage {
     padding: 30px 20px;
   }
