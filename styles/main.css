@@ -4,6 +4,7 @@ main {
   align-items: center;
   position: relative;
   z-index: 10;
+  width: 95%;
 }
 
 .stage {
@@ -15,7 +16,7 @@ main {
   align-items: center;
   padding: 40px 30px;
   border-radius: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   opacity: 0.94;
 }
 
