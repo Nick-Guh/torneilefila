@@ -1,21 +1,3 @@
-body {
-  width: 100vw;
-  padding-top: 110px;
-  padding-left: 380px;
-  padding-right: 30px;
-  min-width: 500px;
-  font-family: Roboto, Arial;
-  color: #d3d3d3;
-}
-
-body.dark-theme {
-  background-color: #121212;
-}
-
-body.light-theme {
-  background-color: #a93535;
-}
-
 main {
   display: flex;
   flex-direction: column;
